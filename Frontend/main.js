@@ -8,6 +8,7 @@ window.addEventListener("DOMContentLoaded", () => {
     })
 })
 
+
 const submitHandler = (event) => {
   event.preventDefault();
   const name = event.target.name.value;

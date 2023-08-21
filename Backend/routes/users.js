@@ -10,4 +10,5 @@ router.get('/', userController.getData);
 
 router.delete('/:id', userController.deleteData);
 
+
 module.exports = router;

@@ -1,5 +1,6 @@
 const Users = require("../models/users");
 
+
 exports.postData = (req, res, next) => {
   console.log("body>>>>>>>>>", req.body);
   Users.create(req.body)

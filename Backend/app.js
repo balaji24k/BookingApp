@@ -14,6 +14,7 @@ app.use(bodyParser.json({ extended: false }));
 
 app.use('/users', userRoutes);
 
+
 sequelize.sync()
     .then(result => {
         // console.log(result)
@@ -22,5 +23,3 @@ sequelize.sync()
     .catch(err => {
         console.log(err)
     })
-
-// app.listen(5000);
